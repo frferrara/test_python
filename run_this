@@ -1,0 +1,8 @@
+#!/usr/bin/env python
+
+from testclass.testclass import TestClass
+from testclass2.testclass2 import TestClass2
+
+tc = TestClass()
+tc2 = TestClass2()
+tc.test_do(tc2)
